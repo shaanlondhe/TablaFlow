@@ -526,7 +526,7 @@ function createDayCard(date, isMonthly = false) {
              <p class="date">${formatDate(date)}</p>`
         }
         <div class="exercises">
-            <button class="add-exercise">Add exercise</button>
+            <button class="add-exercise">Add session</button>
         </div>
     `;
 
