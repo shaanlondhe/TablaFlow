@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TablaFlow - Practice Tracker</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1 class="logo">TablaFlow</h1>
+            <nav>
+                <div class="view-toggles">
+                    <button class="view-toggle" data-view="daily">Day</button>
+                    <button class="view-toggle active" data-view="weekly">Week</button>
+                    <button class="view-toggle" data-view="monthly">Month</button>
+                </div>
+                <div class="nav-links">
+                    <a href="index.html" class="active">Practice</a>
+                    <a href="history.html">History</a>
+                    <a href="about.html">About</a>
+                </div>
+            </nav>
+        </header>
+        <div class="week-navigation">
+            <h2></h2>
+            <div>
+                <button class="nav-arrow prev">Previous</button>
+                <button class="nav-arrow next">Next</button>
+            </div>
+        </div>
+        <div class="view-container"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html> 
